@@ -3,6 +3,7 @@ function getLetterGrade(mark) {
     if (mark >= 80) return "B";
     if (mark >= 70) return "C";
     if (mark >= 60) return "D";
+    if (mark >= 50) return "E";
     return "F";
   }
   
